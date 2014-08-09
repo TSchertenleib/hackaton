@@ -1,0 +1,105 @@
+/* CSS Document */
+
+
+*	{
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body	{
+	
+	background: white;
+	font-family:sans-serif;
+	font-style: normal;
+	font: Helvetica, Arial, sans-serif;
+	font-weight: 200;
+
+}
+
+
+/* Navigation --------------------------------- */
+
+h1 {
+	padding-left: 50px;
+}
+
+
+nav a {
+	text-decoration:none;
+	color: white;
+	padding-left: 50px;
+}
+
+#navibackground {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	height: 100px;
+	padding-top: 2%;
+background: -moz-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 1%, rgba(0,0,0,0) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,1)), color-stop(1%,rgba(0,0,0,1)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(0,0,0,1) 1%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(0,0,0,1) 1%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(0,0,0,1) 1%,rgba(0,0,0,0) 100%); /* IE10+ */
+background: linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(0,0,0,1) 1%,rgba(0,0,0,0) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+
+	-webkit-transition: height 2s;
+	}
+
+#navibackground:hover {
+	height: 200px;
+}
+
+#navigation1	{
+	width: 50%;
+	float:left;
+	display:block;
+}
+
+#navigation2	{
+	width: 50%;
+	float:right;
+	display:block;
+}
+
+ul {
+	list-style: none;
+    padding-left:0;		
+}
+
+.unterliste {
+	padding-top: 30px;
+	display: none;
+
+}
+
+.unterliste>li	{
+	display: block;	
+	float:left;
+	padding-right: 5%;
+	position:relative;
+}
+
+
+
+/* Main --------------------------------- */
+
+.bgvideo {
+	position: fixed; right: 0; bottom: 0;
+	min-width: 100%; min-height: 100%;
+	width: auto; height: auto; z-index: -100;
+}
+
+.box {
+/* 	position: absolute; */
+	width: 50%;
+	float:left;
+	height: 100%;
+	overflow: hidden; 
+}
+
+.aktuell {
+	width: 100%;
+	float:left;
+}
