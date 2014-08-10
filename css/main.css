@@ -9,12 +9,11 @@
 body	{
 	
 	background: white;
-	font-family:sans-serif;
-	font-style: normal;
-	font: Helvetica, Arial, sans-serif;
+font-family: 'Yanone Kaffeesatz', 'Helvetica', sans-serif;	font-style: normal;
 	font-weight: 200;
 
 }
+
 
 
 /* Navigation --------------------------------- */
@@ -86,19 +85,26 @@ ul {
 }
 
 .unterliste {
-	padding-top: 30px;
+	padding-top: 35px;
 
 }
 
 #navigation1 .unterliste,
 #navigation2 .unterliste {
 	opacity: 0;
-	-webkit-transition: opacity 1s ease-in-out;
+	-webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+
 }
 #navigation1:hover .unterliste,
 #navigation2:hover .unterliste {
 	opacity: 1;
-}
+    -webkit-transform: scale(1.1); 
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);}
 
 .unterliste>li	{
 	display: block;	
@@ -107,7 +113,6 @@ ul {
 	padding-left: auto;
 	position:relative;
 }
-
 
 
 /* Main --------------------------------- */
@@ -125,7 +130,4 @@ ul {
 	overflow: hidden; 
 }
 
-.aktuell {
-	width: 100%;
-	float:left;
-}
+
