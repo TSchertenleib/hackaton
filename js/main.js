@@ -1,8 +1,7 @@
 $(document).ready(function ()	{
 	
 	$('h2').css('font-size', '40px');
-	$('.slider').slick({
-	});
+
 
     $('.unterliste').hover(function() {
         $(this).addClass('transition');
