@@ -35,9 +35,6 @@ font-family: 'Yanone Kaffeesatz', 'Helvetica', sans-serif;	font-style: normal;
 }
 
 
-nav>a>p {
-	padding-left: 50px;
-}
 
 
 
@@ -98,9 +95,7 @@ ul {
 #navigation2 .unterliste2 {
 	opacity: 0;
 	-webkit-transition: transform 1s ease-in-out, opacity 1s ease-in-out;
-	-moz-transition: transform 1s ease-in-out, opacity 1s ease-in-out;
-    -o-transition: transform 1s ease-in-out, opacity 1s ease-in-out;
-    -ms-transition: transform 1s ease-in-out, opacity 1s ease-in-out;
+
 
 }
 #navigation1:hover .unterliste1,
