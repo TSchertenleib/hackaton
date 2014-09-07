@@ -78,18 +78,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
 
 ul {
 	list-style: none;
-    padding-left:0;		
+    padding-left:0;
+    position: static;	
 }
 
-.unterliste1 {
-	padding-top: 20px;
 
-}
-
-.unterliste2 {
-	padding-top: 20px;
-
-}
 
 #navigation1 .unterliste1,
 #navigation2 .unterliste2 {
@@ -106,16 +99,19 @@ ul {
     -o-transform: scale(1.1);
     transform: scale(1.1);}
 
-.unterliste1>li	{
+.unterliste {
 	display: block;	
-	float:left;
 	position:relative;
+	padding-top: 37px;
+
+}
+
+.unterliste1>li	{
+	float:left;
 }
 
 .unterliste2>li	{
-	display: block;	
 	float:right;
-	position:relative;
 }
 
 /* Main --------------------------------- */
@@ -124,6 +120,7 @@ ul {
 	position: fixed; right: 0; bottom: 0;
 	min-width: 100%; min-height: 100%;
 	width: 50%; height: 100%; z-index: -100;
+	background-size: cover;
 }
 
 .box {
@@ -132,5 +129,6 @@ ul {
 	height: 100%;
 	overflow: hidden; 
 }
+
 
 
